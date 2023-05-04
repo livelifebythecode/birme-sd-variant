@@ -11,6 +11,14 @@ cd birme-sd-variant
 python -m webbrowser index.html  # or simply open the index.html file
 ```
 
+## Run with Docker-Compose
+```bash
+git clone https://github.com/livelifebythecode/birme-sd-variant.git
+cd birme-sd-variant
+docker-compose up -d
+# Open browser to => http://<HOST_IP>:8080
+```
+
 ## Problem
 Birme restricts the users ability to choose what smoothing is applied which can result in a lower quality cropped image.
 

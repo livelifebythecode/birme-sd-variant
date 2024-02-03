@@ -22,7 +22,7 @@ docker-compose up -d
 ## Problem
 Birme restricts the users ability to choose what smoothing is applied which can result in a lower quality cropped image.
 
-In the Birme code, notice the line `con.imageSmoothingQuality = "medium";` harcodes the smoothing quality when we crop the image.
+In the Birme code, notice the line `con.imageSmoothingQuality = "medium";` hardcodes the smoothing quality when we crop the image.
 ```js
 process_image(img, file) {
     ...
